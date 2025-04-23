@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: radial-gradient(circle, #619bc5, #2d3692);
+}
+
+.white-box {
+  margin: auto 15px;
+  background-color: #f9f8f8;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.white-box h5 {
+  font-size: 14px;
+  margin: 15px 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+.white-box h5 a {
+  font-size: 14px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.white-box h5 a:hover {
+  text-decoration: underline;
+}
+
+.checkbox-item {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+button {
+  background: linear-gradient(90deg, #619bc5 0%, #2d3692 100%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80%;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+}
+button:hover {
+  background-color: #4577a0;
+}
+.register-text {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #909090;
+}
+
+.social-media {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-media a {
+  color: #2d3692;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 32px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+.social-media i {
+  font-size: 32px;
+}
+
+.material-icons {
+  color: #619bc5;
+  font-size: 24px;
+  margin: 5px;
+}
